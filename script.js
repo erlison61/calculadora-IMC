@@ -49,7 +49,7 @@ function initImc(){
     const altura= +txtAlt.value.replace(',','.')
     const peso= +txtPeso.value.replace(',','.')
 
-    if(!altura || !peso || typeof nome.value == 'number')return
+    if(!altura || !peso )return
 
 
     const imc=calcImc(peso,altura)
