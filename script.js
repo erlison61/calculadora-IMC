@@ -44,9 +44,11 @@ function calcImc(peso, altura){
 
 function initImc(){
     //o '+' transforma o valor do input para number
+    // replace troca a virgula por ponto
     const altura= +txtAlt.value.replace(',','.')
     const peso= +txtPeso.value.replace(',','.')
-
+    
+    //se não ouver altura ou peso, retorne undefined
     if(!altura || !peso )return
 
 
