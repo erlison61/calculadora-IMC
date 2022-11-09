@@ -11,13 +11,11 @@ const dataImc=[
         description:`você está com o peso normal`
     },
     {
-    
         min:25,
         max:29.9,
         description:`você está com sobrepeso`
     },
-    {
-        
+    {   
         min:30,
         max:40,
         description:`você está obeso, cuidado`  
